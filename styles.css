@@ -1,0 +1,53 @@
+.content {
+	max-width: 700px;
+	width: 100%;
+	margin: 0 auto ;
+}
+.description {
+	float:left;
+	width:calc(100% - 144px);
+
+}
+
+.img {
+	width: 100%;
+	float: left;
+	max-width: 101px;
+}
+.description p {
+	color:#666666;
+	 width: 100%; 
+	text-overflow: ellipsis; 
+	overflow: hidden; 
+	white-space: nowrap;
+
+}
+.article_news {
+	border-bottom: solid 2px #ccc;
+	min-height: 100px;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+
+}
+.date {
+	float: right;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: baseline;
+	font-size: 0.9em;
+	clear: both;
+	position: relative;
+}
+.pagination {
+	max-width: 200px;
+	margin:  auto ; 
+
+}
+.pagination a {
+	margin:5px;
+}
+.title {
+	color: #333333;
+	font-weight: bold;
+	font-size:0.8em ;
+}
